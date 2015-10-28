@@ -30,8 +30,7 @@ public class CommonsLogTest {
 			URL u = new URL(url); // io 는 항상 exception check
 	
 			InputStream in = u.openStream(); 
-			
-			//Scanner 사용 가능 		
+			//Scanner 사용 가능 , 여기서는 BufferedReader 를 사용함		
 			Reader r  = new InputStreamReader(in); 
 			BufferedReader reader = new BufferedReader(r); 
 			
@@ -41,6 +40,8 @@ public class CommonsLogTest {
 				
 				// 연습을 위해 Log4J사용해본다. 
 				log.info(line);
+				
+				// 일반적인 출력 
 				System.out.println(line);
 				
 			
