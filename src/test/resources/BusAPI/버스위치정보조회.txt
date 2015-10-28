@@ -1,0 +1,18 @@
+
+
+
+1. getBusPosByRtidList (노선 ID로 차량의 위치를 조회하는 서비스)
+
+	ServiceKey=s8HvbWYxtg7rY%2FNlvj4%2F6feKJu66XO%2BLNI3zC%2B7KEUdV0R1Iu2%2B33bKui8OAE%2BV6uJXTKtb9Hcnp94LSG4fajA%3D%3D
+	
+	//강사용
+	ServiceKey=AaxqTg02PVW%2BZhaIkh4fVAIiknK6EU6ZkfT1lQEHEo2PRlldpzfhjoBwE63YKQGpiY4JdZCjCktTW2yatRX%2FgA%3D%3D
+
+	busRouteId=4662800
+	http://ws.bus.go.kr/api/rest/buspos/getBusPosByRtid
+	
+	
+	
+	http://ws.bus.go.kr/api/rest/buspos/getBusPosByRtid?busRouteId=4662800&ServiceKey=s8HvbWYxtg7rY%2FNlvj4%2F6feKJu66XO%2BLNI3zC%2B7KEUdV0R1Iu2%2B33bKui8OAE%2BV6uJXTKtb9Hcnp94LSG4fajA%3D%3D
+	
+	http://ws.bus.go.kr/api/rest/buspos/getBusPosByRtid?busRouteId=4662800&ServiceKey=AaxqTg02PVW%2BZhaIkh4fVAIiknK6EU6ZkfT1lQEHEo2PRlldpzfhjoBwE63YKQGpiY4JdZCjCktTW2yatRX%2FgA%3D%3D
