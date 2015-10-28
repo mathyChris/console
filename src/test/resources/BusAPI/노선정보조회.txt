@@ -4,7 +4,7 @@
 
 1. getBusRouteList (노선번호에 해당하는 노선 목록 조회)
 
-	// 미인증 키 번호 
+	//자가 미인증 키 번호 
 	ServiceKey=s8HvbWYxtg7rY%2FNlvj4%2F6feKJu66XO%2BLNI3zC%2B7KEUdV0R1Iu2%2B33bKui8OAE%2BV6uJXTKtb9Hcnp94LSG4fajA%3D%3D
 	
 	
