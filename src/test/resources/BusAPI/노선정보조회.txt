@@ -27,3 +27,37 @@
 	Philosophy : 
 	COC : Convention over configuration => follow the convention than configuration
 	
+	Expression(식) - 다음의 4가지를 필수적으로 생각한다. 
+		1.Arithmetic Expression(수식)
+		 ex) 4 * (3+5) / (5-4)
+		
+		2.Regular Expression(정규 표현식)
+	  	 ex) [a-zA-Z][0-9] 
+	  	 
+	  	3. Selector Expression
+	  	 ex) h1 > div[class*=xxx]
+	  	 ex) #box (id가 box인 element)
+	  	 
+	  	4. EL(Expression language)
+	  	 ${ 1 + 2 }
+	  	
+	  	5. Xpath Expression (필수적인 것은 아님)
+	  	 ex) // itemlist
+	  	 
+	  	 
+	  	 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
