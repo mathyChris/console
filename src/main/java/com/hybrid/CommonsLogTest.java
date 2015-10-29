@@ -12,7 +12,6 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
 // log을 사용하여 Log4J없이도 사용할 수 있게 함  
-
 public class CommonsLogTest {
 	
 	static Log log = LogFactory.getLog(CommonsLogTest.class) ;
