@@ -98,24 +98,27 @@ public class BusRouteInfoParser {
 		log.info("Method : getBusRouteList = " + strSrch);
 		
 		String url = "http://ws.bus.go.kr/api/rest/busRouteInfo/getBusRouteList?strSrch="
-				+strSrch
+				+ strSrch
 				+"&ServiceKey="
-				+"AaxqTg02PVW%2BZhaIkh4fVAIiknK6EU6ZkfT1lQEHEo2PRlldpzfhjoBwE63YKQGpiY4JdZCjCktTW2yatRX%2FgA%3D%3D";   
-		
+//				+"AaxqTg02PVW%2BZhaIkh4fVAIiknK6EU6ZkfT1lQEHEo2PRlldpzfhjoBwE63YKQGpiY4JdZCjCktTW2yatRX%2FgA%3D%3D"; // 강사 인증키 
+				+"s8HvbWYxtg7rY%2FNlvj4%2F6feKJu66XO%2BLNI3zC%2B7KEUdV0R1Iu2%2B33bKui8OAE%2BV6uJXTKtb9Hcnp94LSG4fajA%3D%3D"; // 사용자 인증키 (my key)
 		String result = null ; 
-		
 		
 		try {
 			
 			//이 기종 간의 데이터 전송 방식에는 Json과 xml 이 있다. 
+			
+			
 			//Unmarshall(deserialization)이라 한다. xml을 자바의 객체로 만들어 내는 것 
 			Document document = builder.parse(url); // w3c로 document객체 생성 
 			
 			
 			//////////////////////////////////////////////////////////////////////
+			
 			// XPath 사용법 
 			XPath xpath = xFactory.newXPath(); 
 			XPathExpression expr = xpath.compile("//ServiceResult/msgBody/itemList"); // 맨앞의 //는 root를 의미 
+			
 //			XPathExpression expr = xpath.compile("//msgBody/itemList");	
 //			XPathExpression expr = xpath.compile("//itemList"); // (//는 위치에 상관없이 itemlist의 이름을 가진 것을  모두 찾는다.) 
 			
