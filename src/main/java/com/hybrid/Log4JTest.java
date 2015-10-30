@@ -15,9 +15,9 @@ public class Log4JTest {
 	
 		log.info("Hello, Log4J");
 		
-		for(int i = 0 ; i < 10 ; i++){
+		for(int i = 0 ; i < 100 ; i++){
 			
-			log.info(" i = " +  i); 
+			log.info(" Index = " +  i); 
 			
 		}
 		
